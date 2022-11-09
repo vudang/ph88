@@ -87742,7 +87742,7 @@ s=A.ju(a,!0,t.Tz).b
 r.y=s==null?null:s.e
 return r.a9I(r.c)},
 a9I(a){return A.O1(new A.abC(this,a),a.length)},
-a9H(a){var s,r,q,p,o,n,m,l=null,k="MM/dd/yyyy HH:mm",j=t.p,i=A.cu(A.a([A.dR(B.o2,B.au),A.aD(l,l,10),A.aO("Group "+A.e(a.f),B.l,B.au,B.n,l,B.o)],j),B.t,B.v,B.z),h=A.aD(l,16,l),g=a.cx
+a9H(a){var s,r,q,p,o,n,m,l=null,k="MM/dd/yyyy HH:mm",j=t.p,i=A.cu(A.a([A.dR(B.o2,B.au),A.aD(l,l,10),A.aO("Group "+A.e(a.f)+" ("+A.e(a.y)+")",B.l,B.au,B.n,l,B.o)],j),B.t,B.v,B.z),h=A.aD(l,16,l),g=a.cx
 g=A.aO(g==null?"":g,B.l,B.x,B.n,18,B.V)
 s=A.aD(l,l,10)
 r=a.db
@@ -87769,16 +87769,17 @@ return A.aO(s,B.l,B.ey,B.c9,null,B.o)},
 a9J(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=J.tj(j.d,new A.abF(a),new A.abG())
 if(h.c==null)return A.c6(i,i,B.m,i,i,i,i,i,i,i,i,i,i)
 s=J.tj(j.e,new A.abH(a),new A.abI())
-r=s.b!=null
-q=r?B.dj:B.cy
-p=r&&s.gmv().a==="home"
-o=r&&s.gmv().a==="away"
-n=q===B.dj?B.x:B.j
-m=p?A.a8(51,200,16,46):A.a8(51,181,182,189)
-m=A.cT(A.ts(i,m,n,14,new A.abJ(j,h),B.di,q,"\ud83d\udc4d "+A.e(a.cx)),1)
+r=s.b==null
+q=!r
+p=!r||a.e===!0?B.dj:B.cy
+o=q&&s.gmv().a==="home"
+n=q&&s.gmv().a==="away"
+m=p===B.dj?B.x:B.j
+r=o?A.a8(51,200,16,46):A.a8(51,181,182,189)
+r=A.cT(A.ts(i,r,m,14,new A.abJ(j,h),B.di,p,"\ud83d\udc4d "+A.e(a.cx)),1)
 l=A.aD(i,i,20)
-k=o?A.a8(51,200,16,46):A.a8(51,181,182,189)
-return A.cu(A.a([m,l,A.cT(A.ts(i,k,n,14,new A.abK(j,h),B.di,q,"\ud83d\udc4d "+A.e(a.cy)),1)],t.p),B.t,B.v,B.z)},
+k=n?A.a8(51,200,16,46):A.a8(51,181,182,189)
+return A.cu(A.a([r,l,A.cT(A.ts(i,k,m,14,new A.abK(j,h),B.di,p,"\ud83d\udc4d "+A.e(a.cy)),1)],t.p),B.t,B.v,B.z)},
 NY(a,b){var s,r=a.a==="home"?b.e:b.d
 r=A.e(r==null?null:r.toLowerCase())
 s=A.aD5("When you press `BET "+r+u.a,"Cancel",new A.abL(this),new A.abM(this,a,b),"BET "+r,"Are you sure with your decision?")
