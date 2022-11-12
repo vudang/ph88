@@ -1,11 +1,11 @@
 {
-  "name": "web_dashboard",
-  "short_name": "web_dashboard",
+  "name": "PH88",
+  "short_name": "PH88",
   "start_url": ".",
   "display": "minimal-ui",
   "background_color": "#hexcode",
   "theme_color": "#hexcode",
-  "description": "A desktop-friendly dashboard app",
+  "description": "PH 88",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [
